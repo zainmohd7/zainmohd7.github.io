@@ -1,0 +1,136 @@
+body{
+    text-align: center;
+        
+    background: rgb(55, 116, 247);
+  background: linear-gradient(90deg, rgba(55, 247, 247, 0.984) 0%,
+  rgb(68, 186, 255) 35%, rgb(49, 240, 214) 64%, rgba(0,212,255,1) 100%);
+}
+.maindiv{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;    
+    
+    
+
+}
+p{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: .1cm;
+    text-shadow: 2px 2px 3px black;
+    text-transform: capitalize;
+}
+
+.rsultdiv{
+    margin-top: 30px;
+
+    font-size: large;
+    background-color: rgba(27, 13, 49, 0.219);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1cm;
+    width: 650px;
+    height: 230px;
+    border-radius: 10px;
+    animation: boxshadow 2s ease infinite;
+    
+   
+}
+.Developer{
+    margin-top: 350px;
+    font-size: medium;
+    background-color: rgba(27, 13, 49, 0.219);
+    text-align: center;    
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1cm;
+    width: 550px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  black ;
+    
+
+}
+
+#instagram{
+    color:black;
+    animation: zoom 1s ease  ;
+
+    
+
+
+
+    
+    
+}
+#instagram{
+    color: black;
+}
+
+#instagram:hover{
+    display: inline-block;
+    vertical-align: middle;
+    color:red;
+    transform: scale(1.5);
+    transform: perspective(10px) translateZ(1);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+#instagram:hover{
+    display: inline-block;
+    vertical-align: middle; 
+    color: red;
+    transform: scale(1.5);   
+    transform: perspective(10px) translateZ(1);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+}
+
+
+@keyframes zoom{
+    50%{
+        transform: scale(1.2);
+        color: black;
+
+    }
+    70%{
+        color: red;
+    }
+    
+}
+
+
+
+
+
+
+@keyframes boxshadow{
+    
+
+    50%{
+        box-shadow: 5px 5px 15px  black ;
+    }
+}
+
+.button{
+    color: #333;
+    background-color:#fafafa;
+    border-color: #ddd;
+    padding: 1rem;
+    
+      
+}
+
+.button:hover{
+    transition: all 150ms ease-in-out 0s;
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+    height: 1000px;
+}
+
+
